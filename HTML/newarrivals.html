@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@600&family=Xmind&display=swap"
+        rel="stylesheet">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="../CSS/style-newarrivals.css">
+</head>
+
+<body>
+
+    <nav class="sections">
+
+        <a href="../HTML/home.html" class="sections-content">
+            <span>Home</span>
+        </a>
+
+        <a href="../HTML/shop.html" class="sections-content">
+            <span>Shop</span>
+        </a>
+
+        <a href="../HTML/deals.html" class="sections-content">
+            <span>Deals</span>
+        </a>
+
+        <a href="../HTML/newarrivals.html" class="sections-content">
+            <span>New Arrivals</span>
+        </a>
+
+        <a href="../HTML/brands.html" class="sections-content">
+            <span>Brands</span>
+        </a>
+
+        <a href="../HTML/inspiration.html" class="sections-content">
+            <span>Inspiration</span>
+        </a>
+
+        <a href="../HTML/account.html" class="sections-content">
+            <span>Track Order</span>
+        </a>
+
+    </nav>
+
+    <header class="main-header">
+            <img
+                src="../images/logo.jpeg"
+                alt="Shop Logo"
+                class="logo"
+            >
+        </a>
+
+        <form class="search-bar">
+
+            <input
+                type="search"
+                placeholder="Search products, brands and more..."
+                aria-label="Search products"
+            >
+
+            <button type="submit" aria-label="Search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+
+        </form>
+
+        <div class="header-actions">
+
+            <a href="../HTML/account.html" class="header-actions-content">
+                <i class="fa-solid fa-user"></i>
+                <span>Account</span>
+            </a>
+
+            <a href="#" class="header-actions-content">
+                <i class="fa-solid fa-heart"></i>
+                <span>Wishlist</span>
+            </a>
+
+            <a href="#" class="header-actions-content">
+                <span style="font-size: 22px; line-height: 1;">🛒</span>
+                <span>Add To Cart</span>
+            </a>
+
+        </div>
+
+    </header>
+
+
+    <main class="new-arrivals-container">
+
+
+    
+        <section class="arrival-hero">
+
+            <div class="hero-content">
+
+                <span class="arrival-label">
+                    JUST LANDED
+                </span>
+
+                <h1>
+                    New Arrivals
+                </h1>
+
+                <p>
+                    Discover the latest products, fresh styles
+                    and exciting new additions to our collection.
+                </p>
+
+                <a href="#new-products"
+                   class="explore-btn">
+
+                    Explore New Arrivals
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+
+
+        <section class="arrival-categories">
+
+            <div class="section-title">
+
+                <div>
+
+                    <span class="small-title">
+                        EXPLORE
+                    </span>
+
+                    <h2>
+                        New In By Category
+                    </h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="category-grid">
+
+                <a href="#electronics"
+                   class="arrival-category">
+
+                    <i class="fa-solid fa-laptop"></i>
+
+                    <span>
+                        Electronics
+                    </span>
+
+                </a>
+
+
+                <a href="#fashion"
+                   class="arrival-category">
+
+                    <i class="fa-solid fa-shirt"></i>
+
+                    <span>
+                        Fashion
+                    </span>
+
+                </a>
+
+
+                <a href="#beauty"
+                   class="arrival-category">
+
+                    <i class="fa-solid fa-spray-can-sparkles"></i>
+
+                    <span>
+                        Beauty
+                    </span>
+
+                </a>
+
+
+                <a href="#home"
+                   class="arrival-category">
+
+                    <i class="fa-solid fa-house"></i>
+
+                    <span>
+                        Home &amp; Living
+                    </span>
+
+                </a>
+
+            </div>
+
+        </section>
+
+        <section class="new-products"
+                 id="new-products">
+
+
+            <div class="products-heading">
+
+                <div>
+
+                    <span class="small-title">
+                        FRESH FROM THE STORE
+                    </span>
+
+                    <h2>
+                        Latest Arrivals
+                    </h2>
+
+                    <p>
+                        Be the first to discover what's new.
+                    </p>
+
+                </div>
+
+
+                <a href="../HTML/shop.html"
+                   class="view-all">
+
+                    View All
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </a>
+
+            </div>
+
+
+
+            <!-- =================================================
+                 PRODUCT GRID
+            ================================================== -->
+
+            <div class="product-grid">
+
+
+                <!-- PRODUCT 1 -->
+
+                <article class="product-card"
+                         id="electronics">
+
+                    <span class="new-badge">
+                        NEW
+                    </span>
+
+                    <button class="wishlist-btn"
+                            aria-label="Add to wishlist">
+
+                        <i class="fa-regular fa-heart"></i>
+
+                    </button>
+
+
+                    <img src="../images/Headphones.png"
+                         alt="Wireless Headphones">
+
+
+                    <h3>
+                        Wireless Headphones
+                    </h3>
+
+
+                    <div class="rating">
+
+                        <span class="stars">
+                            ★★★★★
+                        </span>
+
+                        <span>
+                            (124)
+                        </span>
+
+                    </div>
+
+
+                    <div class="price-row">
+
+                        <span class="price">
+                            ₹2,499
+                        </span>
+
+                    </div>
+
+
+                    <button class="add-cart">
+
+                        <i class="fa-solid fa-cart-shopping"></i>
+
+                        Add To Cart
+
+                    </button>
+
+                </article>
+
+
+
+                <!-- PRODUCT 2 -->
+
+                <article class="product-card"
+                         id="fashion">
+
+                    <span class="new-badge">
+                        NEW
+                    </span>
+
+                    <button class="wishlist-btn"
+                            aria-label="Add to wishlist">
+
+                        <i class="fa-regular fa-heart"></i>
+
+                    </button>
+
+
+                    <img src="../images/shirt.png"
+                         alt="Premium Shirt">
+
+
+                    <h3>
+                        Premium Casual Shirt
+                    </h3>
+
+
+                    <div class="rating">
+
+                        <span class="stars">
+                            ★★★★☆
+                        </span>
+
+                        <span>
+                            (89)
+                        </span>
+
+                    </div>
+
+
+                    <div class="price-row">
+
+                        <span class="price">
+                            ₹1,499
+                        </span>
+
+                    </div>
+
+
+                    <button class="add-cart">
+
+                        <i class="fa-solid fa-cart-shopping"></i>
+
+                        Add To Cart
+
+                    </button>
+
+                </article>
+
+
+
+                <!-- PRODUCT 3 -->
+
+                <article class="product-card"
+                         id="beauty">
+
+                    <span class="new-badge">
+                        NEW
+                    </span>
+
+                    <button class="wishlist-btn"
+                            aria-label="Add to wishlist">
+
+                        <i class="fa-regular fa-heart"></i>
+
+                    </button>
+
+
+                    <img src="../images/serum.png"
+                         alt="Vitamin C Serum">
+
+
+                    <h3>
+                        Vitamin C Face Serum
+                    </h3>
+
+
+                    <div class="rating">
+
+                        <span class="stars">
+                            ★★★★★
+                        </span>
+
+                        <span>
+                            (156)
+                        </span>
+
+                    </div>
+
+
+                    <div class="price-row">
+
+                        <span class="price">
+                            ₹899
+                        </span>
+
+                    </div>
+
+
+                    <button class="add-cart">
+
+                        <i class="fa-solid fa-cart-shopping"></i>
+
+                        Add To Cart
+
+                    </button>
+
+                </article>
+
+
+
+                <!-- PRODUCT 4 -->
+
+                <article class="product-card"
+                         id="home">
+
+                    <span class="new-badge">
+                        NEW
+                    </span>
+
+                    <button class="wishlist-btn"
+                            aria-label="Add to wishlist">
+
+                        <i class="fa-regular fa-heart"></i>
+
+                    </button>
+
+
+                    <img src="../images/Coffee Maker.png"
+                         alt="Coffee Maker">
+
+
+                    <h3>
+                        Automatic Coffee Maker
+                    </h3>
+
+
+                    <div class="rating">
+
+                        <span class="stars">
+                            ★★★★☆
+                        </span>
+
+                        <span>
+                            (72)
+                        </span>
+
+                    </div>
+
+
+                    <div class="price-row">
+
+                        <span class="price">
+                            ₹2,999
+                        </span>
+
+                    </div>
+
+
+                    <button class="add-cart">
+
+                        <i class="fa-solid fa-cart-shopping"></i>
+
+                        Add To Cart
+
+                    </button>
+
+                </article>
+
+
+
+                <!-- PRODUCT 5 -->
+
+                <article class="product-card"
+                         id="fashion">
+
+                    <span class="new-badge">
+                        NEW
+                    </span>
+
+                    <button class="wishlist-btn"
+                            aria-label="Add to wishlist">
+
+                        <i class="fa-regular fa-heart"></i>
+
+                    </button>
+
+
+                    <img src="../images/backpack.png"
+                         alt="Travel Backpack">
+
+
+                    <h3>
+                        Premium Travel Backpack
+                    </h3>
+
+
+                    <div class="rating">
+
+                        <span class="stars">
+                            ★★★★★
+                        </span>
+
+                        <span>
+                            (213)
+                        </span>
+
+                    </div>
+
+
+                    <div class="price-row">
+
+                        <span class="price">
+                            ₹1,899
+                        </span>
+
+                    </div>
+
+
+                    <button class="add-cart">
+
+                        <i class="fa-solid fa-cart-shopping"></i>
+
+                        Add To Cart
+
+                    </button>
+
+                </article>
+
+
+
+                <!-- PRODUCT 6 -->
+
+                <article class="product-card"
+                         id="fashion">
+
+                    <span class="new-badge">
+                        NEW
+                    </span>
+
+                    <button class="wishlist-btn"
+                            aria-label="Add to wishlist">
+
+                        <i class="fa-regular fa-heart"></i>
+
+                    </button>
+
+
+                    <img src="../images/hand bag.png"
+                         alt="Women's Handbag">
+
+
+                    <h3>
+                        Elegant Women's Handbag
+                    </h3>
+
+
+                    <div class="rating">
+
+                        <span class="stars">
+                            ★★★★☆
+                        </span>
+
+                        <span>
+                            (98)
+                        </span>
+
+                    </div>
+
+
+                    <div class="price-row">
+
+                        <span class="price">
+                            ₹2,199
+                        </span>
+
+                    </div>
+
+
+                    <button class="add-cart">
+
+                        <i class="fa-solid fa-cart-shopping"></i>
+
+                        Add To Cart
+
+                    </button>
+
+                </article>
+
+
+
+                <!-- PRODUCT 7 -->
+
+                <article class="product-card"
+                         id="home">
+
+                    <span class="new-badge">
+                        NEW
+                    </span>
+
+                    <button class="wishlist-btn"
+                            aria-label="Add to wishlist">
+
+                        <i class="fa-regular fa-heart"></i>
+
+                    </button>
+
+
+                    <img src="../images/armchair.png"
+                         alt="Modern Armchair">
+
+
+                    <h3>
+                        Modern Lounge Armchair
+                    </h3>
+
+
+                    <div class="rating">
+
+                        <span class="stars">
+                            ★★★★★
+                        </span>
+
+                        <span>
+                            (61)
+                        </span>
+
+                    </div>
+
+
+                    <div class="price-row">
+
+                        <span class="price">
+                            ₹8,499
+                        </span>
+
+                    </div>
+
+
+                    <button class="add-cart">
+
+                        <i class="fa-solid fa-cart-shopping"></i>
+
+                        Add To Cart
+
+                    </button>
+
+                </article>
+
+
+
+                <!-- PRODUCT 8 -->
+
+                <article class="product-card"
+                         id="electronics">
+
+                    <span class="new-badge">
+                        NEW
+                    </span>
+
+                    <button class="wishlist-btn"
+                            aria-label="Add to wishlist">
+
+                        <i class="fa-regular fa-heart"></i>
+
+                    </button>
+
+
+                    <img src="../images/smart watch.png"
+                         alt="Smart Watch">
+
+
+                    <h3>
+                        Smart Fitness Watch
+                    </h3>
+
+
+                    <div class="rating">
+
+                        <span class="stars">
+                            ★★★★★
+                        </span>
+
+                        <span>
+                            (187)
+                        </span>
+
+                    </div>
+
+
+                    <div class="price-row">
+
+                        <span class="price">
+                            ₹3,499
+                        </span>
+
+                    </div>
+
+
+                    <button class="add-cart">
+
+                        <i class="fa-solid fa-cart-shopping"></i>
+
+                        Add To Cart
+
+                    </button>
+
+                </article>
+
+            </div>
+
+        </section>
+
+    </main>

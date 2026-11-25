@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shop</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@600&family=Xmind&display=swap"
+        rel="stylesheet">
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="../CSS/style-shop.css">
+</head>
+
+<body>
+
+    <nav class="sections">
+
+        <a href="../HTML/home.html" class="sections-content">
+            <span>Home</span>
+        </a>
+
+        <a href="../HTML/shop.html" class="sections-content">
+            <span>Shop</span>
+        </a>
+
+        <a href="../HTML/deals.html" class="sections-content">
+            <span>Deals</span>
+        </a>
+
+        <a href="../HTML/newarrivals.html" class="sections-content">
+            <span>New Arrivals</span>
+        </a>
+
+        <a href="../HTML/brands.html" class="sections-content">
+            <span>Brands</span>
+        </a>
+
+        <a href="../HTML/inspiration.html" class="sections-content">
+            <span>Inspiration</span>
+        </a>
+
+        <a href="../HTML/account.html" class="sections-content">
+            <span>Track Order</span>
+        </a>
+
+    </nav>
+
+    <header class="main-header">
+            <img
+                src="../images/logo.jpeg"
+                alt="Shop Logo"
+                class="logo"
+            >
+        </a>
+
+        <form class="search-bar">
+
+            <input
+                type="search"
+                placeholder="Search products, brands and more..."
+                aria-label="Search products"
+            >
+
+            <button type="submit" aria-label="Search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+
+        </form>
+
+        <div class="header-actions">
+
+            <a href="../HTML/account.html" class="header-actions-content">
+                <i class="fa-solid fa-user"></i>
+                <span>Account</span>
+            </a>
+
+            <a href="#" class="header-actions-content">
+                <i class="fa-solid fa-heart"></i>
+                <span>Wishlist</span>
+            </a>
+
+            <a href="#" class="header-actions-content">
+                <span style="font-size: 22px; line-height: 1;">🛒</span>
+                <span>Add To Cart</span>
+            </a>
+
+        </div>
+
+    </header>
+
+
+    
+    <main class="shop-container">
+
+      
+
+        <input
+            type="radio"
+            name="category"
+            id="cat-all"
+            checked
+        >
+
+        <input
+            type="radio"
+            name="category"
+            id="cat-electronics"
+        >
+
+        <input
+            type="radio"
+            name="category"
+            id="cat-fashion"
+        >
+
+        <input
+            type="radio"
+            name="category"
+            id="cat-home"
+        >
+
+        <input
+            type="radio"
+            name="category"
+            id="cat-beauty"
+        >
+
+        <input
+            type="radio"
+            name="category"
+            id="cat-toys"
+        >
+
+        <input
+            type="radio"
+            name="category"
+            id="cat-books"
+        >
+
+        <input
+            type="radio"
+            name="category"
+            id="cat-pets"
+        >
+
+
+        
+
+        <aside class="left-sidebar">
+
+            <div class="sidebar-header">
+                <i class="fa-solid fa-layer-group"></i>
+                <span>All Categories</span>
+            </div>
+
+
+            <ul class="category-menu">
+
+                <li>
+                    <label for="cat-all">
+                        <i class="fa-solid fa-border-all"></i>
+                        <span>View All</span>
+                    </label>
+                </li>
+
+                <li>
+                    <label for="cat-electronics">
+                        <i class="fa-solid fa-laptop"></i>
+                        <span>Electronics</span>
+                    </label>
+                </li>
+
+                <li>
+                    <label for="cat-fashion">
+                        <i class="fa-solid fa-shirt"></i>
+                        <span>Fashion</span>
+                    </label>
+                </li>
+
+                <li>
+                    <label for="cat-home">
+                        <i class="fa-solid fa-house"></i>
+                        <span>Home &amp; Living</span>
+                    </label>
+                </li>
+
+                <li>
+                    <label for="cat-beauty">
+                        <i class="fa-solid fa-spray-can-sparkles"></i>
+                        <span>Beauty</span>
+                    </label>
+                </li>
+
+                <li>
+                    <label for="cat-toys">
+                        <i class="fa-regular fa-face-smile"></i>
+                        <span>Toys &amp; Kids</span>
+                    </label>
+                </li>
+
+                <li>
+                    <label for="cat-books">
+                        <i class="fa-solid fa-book"></i>
+                        <span>Books</span>
+                    </label>
+                </li>
+
+                <li>
+                    <label for="cat-pets">
+                        <i class="fa-solid fa-paw"></i>
+                        <span>Pet Supplies</span>
+                    </label>
+                </li>
+
+            </ul>
+
+        </aside>
+
+
+        
+        <section class="right-products">
+
+            <div class="shop-top-bar">
+                <div>
+                    <h1>All Products</h1>
+                    <p class="subtitle">
+                        Explore our latest collection
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="product-grid">
+
+
+                <article class="product-card electronics">
+
+                    <span class="discount-badge">-20%</span>
+
+                    <img
+                        src="../images/Headphones.png"
+                        alt="Noise Cancelling Headphones"
+                    >
+
+                    <h2>Noise Cancelling Headphones</h2>
+
+                    <div class="rating">
+
+                        <span class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+
+                        <span>(1,234)</span>
+
+                    </div>
+
+
+                    <div class="card-footer">
+
+                        <div class="price-box">
+                            <span class="price">₹2400</span>
+                            <span class="old-price">₹3000</span>
+                        </div>
+
+                        <button class="bag-btn" type="button">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <article class="product-card fashion">
+
+                    <span class="discount-badge">-25%</span>
+
+                    <img
+                        src="../images/shirt.png"
+                        alt="Linen Casual Shirt"
+                    >
+
+                    <h2>Linen Casual Shirt</h2>
+
+                    <div class="rating">
+
+                        <span class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </span>
+
+                        <span>(812)</span>
+
+                    </div>
+
+
+                    <div class="card-footer">
+
+                        <div class="price-box">
+                            <span class="price">₹1500</span>
+                            <span class="old-price">₹2000</span>
+                        </div>
+
+                        <button class="bag-btn" type="button">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <article class="product-card beauty">
+
+                    <span class="discount-badge">-15%</span>
+
+                    <img
+                        src="../images/serum.png"
+                        alt="L'Oreal Brightening Serum"
+                    >
+
+                    <h2>L'Oreal Brightening Serum</h2>
+
+                    <div class="rating">
+
+                        <span class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+
+                        <span>(543)</span>
+
+                    </div>
+
+
+                    <div class="card-footer">
+
+                        <div class="price-box">
+                            <span class="price">₹780</span>
+                            <span class="old-price">₹920</span>
+                        </div>
+
+                        <button class="bag-btn" type="button">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </button>
+
+                    </div>
+
+                  </article>
+
+
+                <article class="product-card home">
+
+                    <span class="discount-badge">-30%</span>
+
+                    <img
+                        src="../images/Coffee Maker.png"
+                        alt="Philips Coffee Maker"
+                    >
+
+                    <h2>Philips Coffee Maker</h2>
+
+                    <div class="rating">
+
+                        <span class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </span>
+
+                        <span>(963)</span>
+
+                    </div>
+
+
+                    <div class="card-footer">
+
+                        <div class="price-box">
+                            <span class="price">₹840</span>
+                            <span class="old-price">₹1200</span>
+                        </div>
+
+                        <button class="bag-btn" type="button">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+
+                <article class="product-card fashion">
+
+                    <span class="discount-badge">-20%</span>
+
+                    <img
+                        src="../images/backpack.png"
+                        alt="Urban Travel Backpack"
+                    >
+
+                    <h2>Urban Travel Backpack</h2>
+
+                    <div class="rating">
+
+                        <span class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+
+                        <span>(1,108)</span>
+
+                    </div>
+
+
+                    <div class="card-footer">
+
+                        <div class="price-box">
+                            <span class="price">₹4000</span>
+                            <span class="old-price">₹5000</span>
+                        </div>
+
+                        <button class="bag-btn" type="button">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+                <article class="product-card fashion">
+
+                    <span class="discount-badge new">NEW</span>
+
+                    <img
+                        src="../images/hand bag.png"
+                        alt="Fresh Styles Handbag"
+                    >
+
+                    <h2>Fresh Styles Handbag</h2>
+
+                    <div class="rating">
+
+                        <span class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </span>
+
+                        <span>(420)</span>
+
+                    </div>
+
+
+                    <div class="card-footer">
+
+                        <div class="price-box">
+                            <span class="price">₹1850</span>
+                        </div>
+
+                        <button class="bag-btn" type="button">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+
+                <article class="product-card home">
+
+                    <span class="discount-badge">-15%</span>
+
+                    <img
+                        src="../images/armchair.png"
+                        alt="Modern Lounge Chair"
+                    >
+
+                    <h2>Modern Lounge Chair</h2>
+
+                    <div class="rating">
+
+                        <span class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </span>
+
+                        <span>(315)</span>
+
+                    </div>
+
+
+                    <div class="card-footer">
+
+                        <div class="price-box">
+                            <span class="price">₹6500</span>
+                            <span class="old-price">₹7650</span>
+                        </div>
+
+                        <button class="bag-btn" type="button">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+
+                <article class="product-card electronics">
+
+                    <span class="discount-badge">-25%</span>
+
+                    <img
+                        src="../images/smart watch.png"
+                        alt="Tech Essentials Smart Watch"
+                    >
+
+                    <h2>Tech Essentials Smart Watch</h2>
+
+                    <div class="rating">
+
+                        <span class="stars">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star-half-stroke"></i>
+                        </span>
+
+                        <span>(726)</span>
+
+                    </div>
+
+
+                    <div class="card-footer">
+
+                        <div class="price-box">
+                            <span class="price">₹2250</span>
+                            <span class="old-price">₹3000</span>
+                        </div>
+
+                        <button class="bag-btn" type="button">
+                            <i class="fa-solid fa-bag-shopping"></i>
+                        </button>
+
+                    </div>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
